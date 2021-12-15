@@ -1,0 +1,92 @@
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+.green {
+    color:#128E75;
+}
+.dark {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.graynavbar {
+    background-color: rgb(228, 228, 228);
+}
+
+.bg-green {
+    background-color: #128E75;
+}
+
+.right {
+    margin-left: auto; 
+    margin-right: 0;
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.blacknav li a{
+    color: black;
+}
+
+/* Navbar */
+.bg-gray {
+    background-color: #404041;
+    color: white;
+}
+
+.whitenav a{
+    color: white;
+}
+
+.hover:hover {
+    color: #128E75;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+/* Sazinies */
+.sazinies img{
+    height: 35em;
+    object-fit: contain; 
+    object-position: 0% 10%;
+}
+@media (max-width: 1100px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}
+
+.pull-left {
+    float: left !important;
+}
+.pull-right {
+    float: right !important;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+.black {
+    color: black;
+}
+
+hr.bg-green {
+    border: 2px solid #128E75;
+  }
